@@ -1,6 +1,8 @@
 using Raylib_cs;
 using System.Numerics;
 
+namespace Game;
+
 public class Player
 {
     float speed = 5f;
