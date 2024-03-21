@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj": {}
+    "C:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj": {}
   },
   "projects": {
-    "c:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj": {
+    "C:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj",
+        "projectUniqueName": "C:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj",
         "projectName": "slutrpojekt",
-        "projectPath": "c:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj",
+        "projectPath": "C:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\slutrpojekt.csproj",
         "packagesPath": "C:\\Users\\felix.elliot\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\obj\\",
+        "outputPath": "C:\\Users\\felix.elliot\\Documents\\Programering 1\\slutrpojekt\\slutrpojekt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
