@@ -22,4 +22,4 @@ public class Player
             player.X -= speed;
     }
 
-}
+} 
