@@ -1,22 +1,30 @@
 ﻿using Raylib_cs;
 using System.Numerics;
-using Game;
 
 
 Raylib.SetTargetFPS(60);
 Raylib.InitWindow(1920, 1080, "Slutprojekt");
 Raylib.ToggleFullscreen();
 
+Entities entities = new Entities();
+
 Player player = new Player();
+player.speed = 10;
+player.hp = 3;
 
 Enemy enemy = new Enemy();
 
 while (!Raylib.WindowShouldClose())
 {
 
-    player.Draw();
+    enemy.DrawEnemy();
 
-    player.Movement();
+    player.DrawPlayer();
+
+    player.PlayerMovement();
+
+
+
 
     Raylib.ClearBackground(Color.SkyBlue);
 
