@@ -9,8 +9,13 @@ public class Enemy : Entities
         Raylib.DrawRectangleRec(enemy, Color.Red);
 
     }
-    public void EnemyMovement()
+    public void EnemyMovement(Player player)
     {
+        Vector2 playerPosition = player.Position;
+        Vector2 direction = new Vector2(playerPosition.X - enemy.X, playerPosition.Y - enemy.Y);
+        direction = Vector2.Normalize(direction);
 
+        enemy.X += direction.X * speed;
+        enemy.Y += direction.Y * speed;
     }
 }

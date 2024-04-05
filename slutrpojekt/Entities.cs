@@ -8,6 +8,7 @@ public class Entities
     public int hp;
     public float speed;
     
+    
 
 
 }

@@ -13,6 +13,7 @@ player.speed = 10;
 player.hp = 3;
 
 Enemy enemy = new Enemy();
+enemy.speed = 1;
 
 while (!Raylib.WindowShouldClose())
 {
@@ -23,6 +24,7 @@ while (!Raylib.WindowShouldClose())
 
     player.PlayerMovement();
 
+    enemy.EnemyMovement(player);
 
 
 
