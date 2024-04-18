@@ -4,14 +4,17 @@ using System.Numerics;
 
 public class Player : Entities
 {
+    //PLAYER CONSTRUCTOR
     public Player()
     {
-        rect = new Rectangle(1000, 1000, 50, 50);
+        rect = new Rectangle(1000, 800, 50, 50);
     }
+    //PLAYER POSITION LOGIC, WHENEVER "Position" IS ACCESED SEND PLAYER POSITION
     public Vector2 Position
     {
         get { return new Vector2(rect.X, rect.Y); }
     }
+    //PLAYER DRAW METHOD TO DRAW OUT THE PLAYER WITH RAYLIBS DRAW SYSTEM
     public void DrawPlayer()
     {
         Raylib.DrawRectangleRec(rect, Color.Black);

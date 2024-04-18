@@ -1,8 +1,10 @@
 using Raylib_cs;
 using System.Numerics;
 
+//ARV
 public class Enemy : Entities
 {
+    //ENEMY CONSTRUCTOR
     public Enemy()
     {
         rect = new Rectangle(875, 10, 150, 150);
@@ -12,6 +14,7 @@ public class Enemy : Entities
         Raylib.DrawRectangleRec(rect, Color.Red);
 
     }
+    //ENEMY MOVEMENT ALGORITHM, GETS PLAYER POS, CALCULATES ENEMY TO PLAYER DISTANCE, NORMALISES DIRECTION TO MOVE AT CONSTANT SPEED, ENEMY SPEED
     public void EnemyMovement(Player player)
     {
         Vector2 playerPosition = player.Position;
