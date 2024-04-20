@@ -1,7 +1,7 @@
 ﻿using Raylib_cs;
 using System.Numerics;
 
-// RAYLIB STANDARDS FPS, WINDOW SIZE, FULLSCREEN
+// RAYLIB STANDARDS FPS, WINDOW SIZE, FULLSCREEN, EXIT KEY REMOVAL SO PLAYER DOES NOT ACCIDENTALY CRASH THE GAME
 Raylib.SetTargetFPS(60);
 Raylib.InitWindow(1920, 1080, "Slutprojekt");
 Raylib.ToggleFullscreen();
