@@ -53,7 +53,7 @@ while (!Raylib.WindowShouldClose())
         }
 
     }
-    else if (currentScene == Scenes.info)
+    else if (currentScene == Scenes.info) //INFO IS MOSTLY RAYLIB TEXT
     {
         Raylib.ClearBackground(Color.Black);
 
@@ -74,7 +74,7 @@ while (!Raylib.WindowShouldClose())
             currentScene = Scenes.game;
         }
     }
-    if (currentScene == Scenes.game)
+    if (currentScene == Scenes.game) // GAME CONATINS INVOKES FOR ALL CLASS METHODS
     {
         enemy.DrawEnemy();
 

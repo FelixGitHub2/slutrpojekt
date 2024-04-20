@@ -20,6 +20,7 @@ public class Player : Entities
         Raylib.DrawRectangleRec(rect, Color.Black);
 
     }
+    //PLAYER MOVEMENT CODE NO NORMALIZE FOR BETTER SPEED AGAINST ENEMY
     public void PlayerMovement()
     {
         if (Raylib.IsKeyDown(KeyboardKey.D))

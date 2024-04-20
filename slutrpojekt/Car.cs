@@ -9,7 +9,7 @@ public class Car : Entities
     {
         rect = new Rectangle(1920, 600, 50, 50);
     }
-
+    //CAR RAYLIB DRAW
     public void DrawCar()
     {
         Raylib.DrawRectangleRec(rect, Color.Yellow);
